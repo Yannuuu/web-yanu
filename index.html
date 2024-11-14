@@ -21,14 +21,16 @@
         </nav>
     </header>
 <main>
-    <section id="Home" class="deskripsi">
-        <div class="desk">
-            <h1>Selamat datang di Toko Ndog Asin</h1><br>
-            <p align="left">Telor Asin adalah makanan khas dari Brebes Jawa Tengah. Toko Ndog Asin sendiri telah berdiri dari tahun 2024 yang juga ber tempat di daerah Brebes</p><br>
-            <a href="#"class="btn-selengkapnya">Selengkapnya</a>
-        </div>
-        <img src="telor asin.jpeg" alt="Telor Asin"width="500px" height="350px">
-    </section>
+    <div class="main-bg">
+        <section id="Home" class="deskripsi">
+            <div class="desk">
+                <h1>Selamat datang di Toko Ndog Asin</h1><br>
+                <p align="left">Telor Asin adalah makanan khas dari Brebes Jawa Tengah. Toko Ndog Asin sendiri telah berdiri dari tahun 2024 yang juga ber tempat di daerah Brebes</p><br>
+                <a href="#"class="btn-selengkapnya">Selengkapnya</a>
+            </div>
+            <img src="telor asin.jpg" alt="Telor Asin"width="500px" height="350px">
+        </section>
+    </div>
 
     <section id="Service" class="Service">
         <div class="Layanan">
@@ -62,7 +64,7 @@
     <section id="detail">
         <div  class="box-container">
         <div class="box">
-            <img src="telor asin.jpeg" alt="">
+            <img src="box telor asin.jpg" alt="">
             <h1>Telor Asin Rebus</h1>
             <p>Telor asin yang dibuat dengan cara di rebus</p>
         </div>
@@ -97,8 +99,6 @@
 
     </section>
     
-
-
     </div>
     <div class="Footer">
         <li><a href="https://www.instagram.com/yanuar.ta/"><i>Follow Instagram owner</i></a></li>
@@ -110,19 +110,23 @@
             font-family: "Afacad Flux", sans-serif;
         }
 
-    
-        .list-menu{
-            background-color: aqua; 
-            padding: 20px;
-            border-radius: 10px;
+        .main-bg {
+            background-image: url('bg telor asin.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+            padding: 40px; 
         }
+
         header{
+            position: fixed;
             display:flex;
             flex-direction: row;
             justify-content: space-between;
             background-color: brown;
             color: white;
-            padding: 40px;
+            padding: 20px;
+            width: 97vw;
         }
         .toko{
             margin: 0;
